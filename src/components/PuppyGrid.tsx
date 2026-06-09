@@ -4,10 +4,10 @@ import { motion } from 'motion/react';
 import Image from 'next/image';
 
 const puppies = [
-  { name: "Bella", breed: "Golden Retriever", age: "8 weeks", personality: "Playful and loves cuddles", image: "https://picsum.photos/seed/goldenretriever/800/900", featured: true },
-  { name: "Max", breed: "French Bulldog", age: "10 weeks", personality: "Calm and curious explorer", image: "https://picsum.photos/seed/frenchbulldog/600/600" },
-  { name: "Luna", breed: "Labrador", age: "9 weeks", personality: "Energetic and always happy", image: "https://picsum.photos/seed/labpuppy/600/600" },
-  { name: "Charlie", breed: "Cavalier King Charles", age: "7 weeks", personality: "Gentle and loves everyone", image: "https://picsum.photos/seed/cavalierpup/1200/500" },
+  { name: "Bella", breed: "Golden Retriever", age: "8 weeks", personality: "Playful and loves cuddles", image: "https://images.unsplash.com/photo-1615233500064-caa995e2f9dd?w=800&h=900&fit=crop&auto=format", featured: true },
+  { name: "Max", breed: "French Bulldog", age: "10 weeks", personality: "Calm and curious explorer", image: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600&h=600&fit=crop&auto=format" },
+  { name: "Luna", breed: "Labrador", age: "9 weeks", personality: "Energetic and always happy", image: "https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?w=600&h=600&fit=crop&auto=format" },
+  { name: "Charlie", breed: "Cavalier King Charles", age: "7 weeks", personality: "Gentle and loves everyone", image: "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=1200&h=500&fit=crop&auto=format" },
 ];
 
 const GRID_SPANS = [

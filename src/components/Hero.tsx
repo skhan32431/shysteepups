@@ -71,7 +71,7 @@ export default function Hero() {
           }}
         >
           <Image
-            src="https://picsum.photos/seed/goldenpuppy/800/900"
+            src="https://images.unsplash.com/photo-1633722715463-d30f4f325e24?w=800&h=900&fit=crop&auto=format"
             alt="A happy golden puppy"
             width={800}
             height={900}
