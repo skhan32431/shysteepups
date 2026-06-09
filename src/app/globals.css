@@ -8,18 +8,10 @@
   --color-accent: #7C9A82;
   --color-accent-hover: #6B8A71;
   --color-whisper: rgba(214, 214, 210, 0.5);
-  --font-display: var(--font-outfit);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
